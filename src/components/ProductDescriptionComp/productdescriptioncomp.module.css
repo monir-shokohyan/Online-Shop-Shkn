@@ -1,0 +1,36 @@
+
+
+
+.pdcImageContainer{
+transition: transform .5s ease-in;
+    width: 35%;
+    min-width: 350px;
+    height: auto !important;
+    
+
+}
+
+
+
+.pdcImageContainer:hover{
+transform: scale(105%);
+}
+.pdCenterMainContainer{
+    width: 90%;
+    
+}
+
+.pdInfoMainContainer{
+    padding-inline: 5%;
+}
+
+
+@media (max-width:430px){
+    .pdCenterMainContainer{
+        width: 96%;
+    }
+    .pdcImageContainer{
+        height: auto !important;
+    }
+    
+}

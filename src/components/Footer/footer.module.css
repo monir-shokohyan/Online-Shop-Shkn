@@ -1,0 +1,36 @@
+.footerContainer{
+    clip-path: polygon(30% 0, 80% 14%, 100% 39%, 100% 100%, 0 100%, 0 14%);
+    position: relative;
+    padding-left: 15% !important;
+    width: 100%;
+    margin-top: 10vh;
+    
+}
+.imgFooter{
+   
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   position: absolute;
+   left: 0%;
+   top: 0%;
+}
+.imglogo{
+    height:auto;
+    width: 150px;
+}
+
+
+@media (max-width:570px){
+    .footerContainer{
+
+        padding-left: 5% !important;
+    }
+}
+@media (max-width:416px){
+    .footerContainer{
+
+        padding-left: 0% !important;
+    }
+}

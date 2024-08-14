@@ -1,0 +1,51 @@
+.mainContainerPagination{
+    display: flex;
+    width: 40%;
+    background-color: var(--mainColor);
+    justify-content: space-evenly;
+    padding-block: 1vh !important;
+    margin: 2rem auto;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0px 0px 5px rgb(89, 88, 88);
+    
+   
+}
+.mainContainerPagination.selected{
+    color: red;
+
+}
+
+.mainContainerPagination li{
+    padding-inline: 5px;
+}
+.mainContainerPagination li:hover{
+    color: black;
+}
+.npbutton{
+    color: white;
+    &:hover{
+        color: black;
+    }
+}
+
+
+@media (max-width:1000px){
+    .mainContainerPagination{
+
+        width: 80%;
+    }
+}
+@media (max-width:600px){
+    .mainContainerPagination{
+
+        width: 90%;
+    }
+}
+@media (max-width:450px){
+    .mainContainerPagination{
+
+        width: 96%;
+    }
+}

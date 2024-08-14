@@ -1,0 +1,19 @@
+.paragraphText{
+    color: gray;
+    font-size: clamp(.7rem,1vw,1rem);
+    transition: color .5s ease-in-out;
+}
+.welcomeImg{
+    opacity: 100%;
+    transition: opacity .5s ease-in-out;
+}
+
+@media (max-width:700px){
+  
+     .welcomeImg{
+        opacity: 20%;
+     }
+    .paragraphText{
+        color: black;
+    }
+}
